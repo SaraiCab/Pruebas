@@ -67,7 +67,7 @@ class AccessWidget extends StatelessWidget {
                     Navigator.of(context).push(
                         MaterialPageRoute(builder: (context) => const BH()));
                   },
-                  child: const Text('Ver mas'),
+                  child: const Text('Ver más'),
                 ),
               ],
             ),
