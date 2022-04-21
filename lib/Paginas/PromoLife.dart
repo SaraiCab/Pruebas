@@ -119,15 +119,13 @@ class imagen extends StatelessWidget {
                   child: SizedBox(
                     width: double.infinity,
                     height: 50,
-                    child: Text(
-                      "Codigo de valores",
-                      style: TextStyle(
-                          color: Colors.blueGrey,
-                          height: 2,
-                          fontSize: 20,
-                          fontWeight: FontWeight.w700),
-                      textAlign: TextAlign.justify,
-                    ),
+                    child: Text("Codigo de valores",
+                        style: TextStyle(
+                            color: Colors.blueGrey,
+                            height: 2,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w700),
+                        textAlign: TextAlign.center),
                   ),
                 ),
                 Padding(
